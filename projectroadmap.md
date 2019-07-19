@@ -9,7 +9,4 @@
 8. : DONE - Create projectroadmap.md 
 9. : Import Harris-Benedict formula which allows users to calculate their basal metabolic rate
 10. : Create calorie and macronutrient values for the 20 most common food items in America
-
-
-10.: Create calorie and macronutrient values for the 20 most common food items in America
-11.: Create formula for weight loss, maintenance, and weight gain. I.e. if user wishes to lose 1 pound a week, input calories consumed - maintenance = difference. 3500 / difference = days it takes to achieve 1 pound of fat loss or gain
+11. : Create formula for weight loss, maintenance, and weight gain. I.e. if user wishes to lose 1 pound a week, input calories consumed - maintenance = difference. 3500 / difference = days it takes to achieve 1 pound of fat loss or gain
