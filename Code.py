@@ -2,7 +2,7 @@
 
     #First we define the variables that we would like to use
 
-    def __init__(self, age, weight, height, chromosomes, activity, diet, effect):
+    def __init__(self, age, weight, height, gender, activity, diet, effect):
         self.age = age
         self.weight = weight
         self.height = height
