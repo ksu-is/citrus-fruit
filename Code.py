@@ -82,12 +82,6 @@ class biology(object):
 xy_biology = biology(66.47, 13.75, 5.0, 6.75)
 xx_biology = biology(665.09, 9.56, 1.84, 4.67)
 
-# Biology option changed to accept chromosomes at birth - 'XX' for female at birth, 'XY' for male at birth.
-# All units are SI, sorry Americans.
-# Weight goals must be 'Gain', 'Lose', or 'Maintain'
-# Activity Level can be 'Sedentry', 'Light', 'Moderate', 'Active' or 'Extreme'
-# Macros currently supports Keto, any other string returns standard values
-
 user_a = user('test', 22, 79, 172, 'XY', 'Maintain', 'Light', "No Special Requirement")
 
 print(int(user_a.base_metabolic_rate()))
