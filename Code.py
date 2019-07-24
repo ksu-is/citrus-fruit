@@ -1,6 +1,4 @@
-
-    #First we define the variables that we would like to use
-    class user(object):
+class user(object):
 
     def __init__(self, name, age, weight, height, chromosomes, goal, activity, diet):
         self.name = name
@@ -83,38 +81,8 @@ xy_biology = biology(66.47, 13.75, 5.0, 6.75)
 xx_biology = biology(665.09, 9.56, 1.84, 4.67)
 
 user_a = user('test', 22, 79, 172, 'XY', 'Maintain', 'Light', "No Special Requirement")
-
-print(int(user_a.base_metabolic_rate()))
-print(int(user_a.maintenance_calories()))
-print(int(user_a.calorie_intake()))
-print(int(user_a.body_mass_index()*10000))
-print(user_a.macronutrient_split())
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
+print("Your basal metabolic rate 'BMR' is:", int(user_a.base_metabolic_rate()))
+print("Your maintenance calories per day are:", int(user_a.maintenance_calories()))
+print("Your calorie intake for the day is:", int(user_a.calorie_intake()))
+print("Your body mass index 'BMI' is:", int(user_a.body_mass_index()*10000))
+print("Your balanced macronutrient profile for proteins, carbs, and fats respectively:", user_a.macronutrient_split())
