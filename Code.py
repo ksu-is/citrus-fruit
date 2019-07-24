@@ -123,18 +123,4 @@ print(user_a.macronutrient_split())
     
     
     
-    
-    
-    
-    
-    def __init__(self, name, age, weight,
 
-        if gender == 1:
-            self.biology = male_biology
-        elif chromosomes == 2:
-            self.biology = female_biology
-        else:
-            raise Exception('Invalid gender')
-
-gender = input('What is the gender?: ')
-print(self.biology)
